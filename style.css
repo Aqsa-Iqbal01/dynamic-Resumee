@@ -7,7 +7,7 @@ body {
 }
 form {
     margin: auto;
-    background-color: #fff1a0;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -30,7 +30,7 @@ fieldset {
 legend {
     font-weight: bold;
     text-align: left;
-    color: rgb(34, 29, 29);
+    color: #8c2f39;
 }
 
 label {
@@ -43,7 +43,7 @@ input, textarea {
     margin-top: 4px;
     padding: 8px;
     width: calc(100% - 1px);
-    border: 1px solid rgb(143, 129, 2);
+    border: 1px solid #8c2f39;
     border-radius: 4px;
     box-sizing: border-box;
 }
