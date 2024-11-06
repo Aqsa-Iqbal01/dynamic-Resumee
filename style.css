@@ -2,12 +2,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     padding: 0;
-    background-color: #00968f;
-}
+    background-image: url(https://marketplace.canva.com/EAFZcmTpKas/1/0/1600w/canva-video-intro-portada-fondo-background-simple-rosa-dorado-U93tpA4NMDA.jpg);
 
+}
 form {
     margin: auto;
-    background-color: rgb(228, 242, 255);
+    background-color: #fff1a0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -20,11 +20,11 @@ h1 {
 }
 
 fieldset {
-    border: 2px solid skyblue;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 legend {
@@ -37,14 +37,13 @@ label {
     display: block;
     margin-top: 10px;
     color: black;
-
 }
 
-input,textarea {
+input, textarea {
     margin-top: 4px;
     padding: 8px;
     width: calc(100% - 1px);
-    border: 1px solid skyblue;
+    border: 1px solid rgb(143, 129, 2);
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -52,7 +51,7 @@ input,textarea {
 button {
     display: block;
     width: 100%;
-    background-color:#00968f;
+    background-color: #8c2f39;
     color: black;
     border: none;
     border-radius: 4px;
@@ -64,20 +63,41 @@ button {
     cursor: pointer;
 }
 
-button :hover {
-    color: blue;
+button:hover {
+    background-color: #88494f; 
+    color: white; 
 }
 
 #resume-display {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    border: 2px solid skyblue;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
-    background-color: rgb(228, 242, 255);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(187, 107, 107, 0.5);
 }
 
 #resume-display h2 {
     color: black;
+    text-align: center;
+}
+
+#resume-display img {
+    display: block;
+    margin: 0 auto 20px;  
+    width: 150px;        
+    height: 150px;       
+    border-radius: 50%;    
+    object-fit: cover;     
+}
+
+#resume-display p {
+    margin: 10px 0;
+}
+
+#resume-display h3 {
+    margin-top: 20px;
+    color: rgb(34, 29, 29);
+    font-weight: bold;
 }
