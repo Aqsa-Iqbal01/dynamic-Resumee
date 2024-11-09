@@ -1,5 +1,4 @@
-"use strict";
-// Get references to the form and display area
+
 const form = document.getElementById('resume-form');
 const resumeDisplayElement = document.getElementById('resume-display');
 // Handle form submission
@@ -20,7 +19,7 @@ form.addEventListener('submit', (event) => {
         const file = profilePicInput.files[0];
         const reader = new FileReader();
         reader.onloadend = () => {
-            profilePicURL = reader.result; // Capture the base64 string
+            profilePicURL = reader.result; 
             generateResume(profilePicURL);
         };
         reader.readAsDataURL(file);

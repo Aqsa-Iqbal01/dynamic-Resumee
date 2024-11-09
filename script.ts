@@ -1,6 +1,4 @@
-"use strict";
 
-// Get references to the form and display area
 const form: HTMLFormElement | null = document.getElementById('resume-form') as HTMLFormElement | null;
 const resumeDisplayElement: HTMLElement | null = document.getElementById('resume-display');
 
